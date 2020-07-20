@@ -19,5 +19,5 @@ for i in range(len(filenames)):
     bands.append(bands_str[9] )
 
 #Save as csv
-df = pd.DataFrame({"user": user, "event": event, "data": date, "bands":bands}, columns=['user', 'event', 'data', 'bands'])
+df = pd.DataFrame({"user": user, "event": event, "date": date, "bands":bands}, columns=['user', 'event', 'date', 'bands'])
 df.to_csv("./DESGW_TreasureMap_submitted.csv", sep=',',index=False)

@@ -1,5 +1,6 @@
-user,event,data,bands
+user,event,date,bands
 rmorgan,TEST_EVENT,2020-07-20,i
 rmorgan,TEST_EVENT,2020-07-20,i
 rmorgan,S190728q,2020-07-20,r
 mariaeli,S190814bv,2020-07-20,"i,z"
+alyssag,S200224ca,2020-07-20,i
